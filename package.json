@@ -1,0 +1,34 @@
+{
+  "name": "omnilang-framework",
+  "displayName": "OmniLang Framework",
+  "description": "OmniLang Framework Support for OmniLang",
+  "version": "0.0.1",
+  "publisher": "LegendCoderDev",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "omnilang",
+      "aliases": ["OmniLang", "omnilang"],
+      "extensions": [".omni"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "omnilang",
+      "scopeName": "source.omnilang",
+      "path": "./syntaxes/omnilang.tmLanguage.json"
+    }]
+  },
+  "scripts": {
+    "package": "vsce package --no-dependencies",
+    "vscode:prepublish": "npm run package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.101.0",
+    "@vscode/vsce": "^3.4.2"
+  }
+}
