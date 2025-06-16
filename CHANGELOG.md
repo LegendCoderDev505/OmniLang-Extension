@@ -6,4 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+- Initial release 0.0.1
+Created new Syntax
+
+- Initial release of OFPPI (OmniFrame Proposal Preparation of Independent) 0.0.5
+Added Comments
+Added Numerics
+Added Indents
