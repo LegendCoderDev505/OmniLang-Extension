@@ -22,3 +22,4 @@ Added on VSCode store
 - General Release of Bug Fixex of .omni file 0.0.7
 Fixed File Bugs
 Fixed Syntax
+Patch Fixed
