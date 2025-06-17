@@ -1,5 +1,4 @@
 node_modules
-*.vsix
 .env
 *.ps1
 vsc-extension-quickstart.md
