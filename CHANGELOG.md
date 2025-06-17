@@ -23,3 +23,8 @@ Added on VSCode store
 Fixed File Bugs
 Fixed Syntax
 Patch Fixed
+
+- Fixed Bug Release of .omni File 0.0.8
+Fixed file 
+Fixed Syntax
+Fixed .vsix
