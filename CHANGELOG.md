@@ -13,3 +13,8 @@ Created new Syntax
 Added Comments
 Added Numerics
 Added Indents
+
+- Initial release of OFPPI General 0.0.6
+Added New Keywords
+Fixing Bugs
+Added on VSCode store
